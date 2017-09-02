@@ -85,9 +85,9 @@
 
         function setDate() {
             const now = new Date();
+            
             const seconds = now.getSeconds();
             const secondsDegrees = ((seconds / 60) * 360);
-            /* add 90 to offset the default hand style */
             secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
 
             const minutes = now.getMinutes();
