@@ -49,3 +49,8 @@ kbd {
   letter-spacing: 0.1rem;
   color: #ffc600;
 }
+@media (max-width: 775px) {
+  .keys {
+    flex-wrap: wrap;
+  }
+}
