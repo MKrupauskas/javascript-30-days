@@ -23,6 +23,16 @@ h1 {
   margin-bottom: 0;
 }
 
+h1:nth-child(2) {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+button {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem; 
+}
+
 .score {
   background: rgba(255, 255, 255, 0.2);
   padding: 0 3rem;
